@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard MCQ Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <div id="flashcard">
+            <div id="card-content">
+                <div id="question-container">
+                    <h2 id="question">Question text here</h2>
+                </div>
+                <div id="options-container">
+                    <button class="option" onclick="selectOption(0)">Option 1</button>
+                    <button class="option" onclick="selectOption(1)">Option 2</button>
+                    <button class="option" onclick="selectOption(2)">Option 3</button>
+                    <button class="option" onclick="selectOption(3)">Option 4</button>
+                </div>
+            </div>
+        </div>
+        <div id="result-container">
+            <h2 id="result"></h2>
+            <h3 id="attempts-result"></h3> <!-- Added this to display attempts -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
