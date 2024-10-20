@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV Quiz App</title>
+    <script src="/static/script.js" defer></script>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f3f4f6;
+        }
+        button {
+            margin: 5px;
+            padding: 10px;
+            background-color: #4f46e5;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #4338ca;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSV Quiz App</h1>
+    <div id="current-level" style="margin-bottom: 20px;">Current Level: Easy</div>
+    <div id="question"></div>
+    <div id="answers"></div>
+    <div id="results" style="margin-top: 20px;"></div> <!-- Results will be displayed here -->
+</body>
+</html>
